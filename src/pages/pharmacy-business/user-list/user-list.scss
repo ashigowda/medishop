@@ -1,0 +1,41 @@
+page-user-list{
+
+.item-md[detail-push] .item-inner, button.item-md:not([detail-none]) .item-inner, a.item-md:not([detail-none]) .item-inner {
+   
+   padding-right: 32px;
+    background-position: right 14px center;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+}
+.item-ios[detail-push] .item-inner, button.item-md:not([detail-none]) .item-inner, a.item-md:not([detail-none]) .item-inner {
+   
+   padding-right: 32px;
+    background-position: right 14px center;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+}.item-wp[detail-push] .item-inner, button.item-wp:not([detail-none]) .item-inner, a.item-wp:not([detail-none]) .item-inner {
+   
+   padding-right: 32px;
+    background-position: right 14px center;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+}
+ .div2{
+    margin-top:10%;
+    margin-left:76%;
+    width:55px;
+    height:55px;
+    position: fixed;
+    border-radius:100%;
+    background:  $app-background;
+}
+.icon2{
+    color:white;
+    padding-left:17px;
+    padding-top:10px;
+    font-size:35px;
+}
+.col{
+    padding: 2px;
+}
+}

@@ -1,0 +1,54 @@
+page-order-list{
+    .item-md[detail-push] .item-inner, button.item-md:not([detail-none]) .item-inner, a.item-md:not([detail-none]) .item-inner {
+        padding-right: 32px;
+        background-position: right 5px center;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+    }
+    .item-ios[detail-push] .item-inner, button.item-ios:not([detail-none]) .item-inner, a.item-ios:not([detail-none]) .item-inner {
+        padding-right: 32px;
+        background-position: right 5px center;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+    }.item-wps[detail-push] .item-inner, button.item-wp:not([detail-none]) .item-inner, a.item-wp:not([detail-none]) .item-inner {
+        padding-right: 32px;
+        background-position: right 5px center;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+    }
+    .label-md{
+        margin:0px !important;
+    }
+    .label-ios{
+        margin:0px !important;
+    }
+   
+    .col{
+        padding: 3px!important;
+        height: 25px;
+    }
+    .status{
+       background-color:#ff8353;
+       color:white;
+    }
+  .border{
+       // border:1px solid #ff4400;
+        padding-top:2px!important;
+        padding-bottom:2px!important;
+        padding-left:6px;
+        padding-right: 6px;
+        text-align: center;
+        border-radius:6px;
+      //  width:60% !important;
+    }  
+    ion-card:hover  {
+    background-color: #e8e8e8!important;
+}
+
+}
+    ion-app.md [padding-bottom] {
+        padding-bottom: 10px;
+    }
+    ion-app.md [margin-bottom], ion-app.md [margin-bottom] .scroll-content {
+        margin-bottom: 10px;
+    }

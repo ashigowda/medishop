@@ -1,0 +1,48 @@
+page-ebusiness-verify{
+    .card{
+        background-color: map-get($colors,primary);
+        height:45px!important;
+        vertical-align: center;
+        // border-radius:5px;
+    }
+    .button-card{
+        width:calc(100%-20px)!important;
+        margin-left:10px!important;
+        vertical-align: middle!important;
+        text-align: center;
+        color:white;
+    }
+    
+    .icon{
+          color: white !important;
+          padding:0px !important;
+          margin-top:16px !important;
+    }
+    .item{
+          background: none !important;
+    }
+    .label{
+            color: white !important;
+            margin:0px !important;
+    }
+    .border{
+            font-size:17px;
+            font-weight: bold;
+            border:1px solid #666666!important;
+            background-color: #999999;
+            color:black;
+    }
+    .border1{
+           border:1px solid #666666!important;
+           font-size:15px;height:70px;
+
+    }
+    .back-button-icon-md {
+            color: map-get($colors,primary) !important;
+            margin:0px!important;
+    }
+    .back-button-icon-ios {
+            color: map-get($colors,primary) !important;
+            margin:0px!important;
+    }
+}

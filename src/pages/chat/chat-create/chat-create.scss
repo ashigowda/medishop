@@ -1,0 +1,31 @@
+page-chat-create{
+.message{
+    color: map-get($colors,primary);
+    background-color: white;
+    margin-left:3%;
+   
+}
+.message1{
+    color: map-get($colors,primary);
+    background-color: #99cc99;
+ 
+}
+.type{
+   border:5px solid white;
+    width:76%;
+    background: white;
+    margin:2%;
+    height:65px;
+}
+.scroll-content{
+    overflow: scroll;
+    margin-bottom: 56px!important;
+}
+ion-label{
+    border-radius: 200px;
+}
+.footer{
+    bottom:0px!important;
+   background-color: #99cc99;
+}
+}

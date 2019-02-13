@@ -1,0 +1,21 @@
+
+<ion-menu [content]="content">
+     <ion-header>
+    <ion-toolbar>
+      <ion-title>MediServe
+        <ion-icon name="medkit"></ion-icon>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+
+  </ion-content>
+</ion-menu>
+
+<ion-nav  #content [root]="rootPage"  main></ion-nav>
+
+<!--<ion-content (click)="clickedOutside($event)">
+  {{testInput}}
+  <br/>
+  <page-order-list [(text)]="testInput" (clicked)="clickRecieved($event)"></page-order-list>
+</ion-content>-->

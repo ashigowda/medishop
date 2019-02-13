@@ -1,0 +1,36 @@
+page-business-index{
+// .item-md[detail-push] .item-inner, button.item-md:not([detail-none]) .item-inner, a.item-md:not([detail-none]) .item-inner {
+//     float:right;
+//     background-position: right 0px center;
+//     background-repeat: no-repeat;
+//     background-size: 25px 25px;
+// }
+
+// .item-ios[detail-push] .item-inner, button.item-ios:not([detail-none]) .item-inner, a.item-ios:not([detail-none]) .item-inner {
+//  float:right;
+//     background-position: right 0px center;
+//     background-repeat: no-repeat;
+//     background-size: 25px 25px;
+// }
+// .label-md{
+//     margin: 0px !important;
+// }
+// .label-ios{
+//     margin: 0px !important;
+// }
+// .label-wp{
+//     margin: 0px !important;
+// }
+.label-md{
+    margin: 0px !important;
+}
+.label-ios{
+    margin: 0px !important;
+}
+.label-wp{
+    margin: 0px !important;
+}
+ion-card ion-item:hover  {
+    background-color: #e8e8e8!important;
+}
+}

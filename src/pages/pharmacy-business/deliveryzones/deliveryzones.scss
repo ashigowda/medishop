@@ -1,0 +1,31 @@
+page-deliveryzones{
+.even{
+        background: whitesmoke;
+        color: map-get($colors,primary);;
+    }
+    .odd{
+        background:white;
+        color: map-get($colors,primary);;
+    }
+
+.header2{
+    font-weight: bold;
+    background:  map-get($colors,primary);
+    color: white;
+}
+.row{
+margin-top:1px;
+margin-bottom: -5px;
+padding-bottom: 4%;
+text-align: center;
+align-content: center;
+}
+[col-3]{
+    text-align: left;
+
+}
+[col-2]{
+    text-align: left;
+}
+
+}
